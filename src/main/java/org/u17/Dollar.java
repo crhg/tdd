@@ -1,8 +1,6 @@
 package org.u17;
 
 public class Dollar extends Money {
-    private int amount;
-
     Dollar(int amount) {
         this.amount = amount;
     }
