@@ -3,7 +3,7 @@
 * [ ] $5 + 10 CHF = $10 (レートが2:1の場合)
 * [ ] $5 + $5 = $10
 * [ ] $5 + $5 が Money を返す
-* [ ] Bank.reduce(Money)
+* [x] Bank.reduce(Money)
 
 # 以下は整理
 * [x] $5 * 2 = $10
