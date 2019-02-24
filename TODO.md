@@ -15,4 +15,4 @@
 * [x] timesの一般化
 * [x] FrancとDollarを比較する
 * [x] 通貨の概念
-* [x] testFrancMultipicationを削除する?
+* [x] testFrancMultiplicationを削除する?
