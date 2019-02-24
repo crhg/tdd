@@ -18,6 +18,10 @@ public class Money implements Expression{
         return new Sum(this, addend);
     }
 
+    Money reduce(String to) {
+        return this;
+    }
+
     String currency() {
         return currency;
     }
