@@ -1,6 +1,7 @@
 package org.u17;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class MoneyTest {
@@ -37,7 +38,7 @@ public class MoneyTest {
     public void testPlusReturnsSum() {
         Money five = Money.dollar(5);
         Expression result = five.plus(five);
-        Sum sum = (Sum)result;
+        Sum sum = (Sum) result;
         assertEquals(five, sum.augend);
         assertEquals(five, sum.addend);
     }
@@ -78,5 +79,5 @@ public class MoneyTest {
         bank.addRate("CHF", "USD", 2);
         Money result = bank.reduce(fiveBucks.plus(tenFrancs), "USD");
         assertEquals(Money.dollar(10), result);
-     }
+    }
 }
