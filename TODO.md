@@ -7,7 +7,7 @@
 * [x] Moneyを変換して換算を行う
 * [x] Reduce(Bank, String)
 * [x] Sum.plus
-* [ ] Expression.times
+* [x] Expression.times
 
 # 以下は整理
 * [x] $5 * 2 = $10
