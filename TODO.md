@@ -4,6 +4,8 @@
 * [ ] $5 + $5 = $10
 * [ ] $5 + $5 が Money を返す
 * [x] Bank.reduce(Money)
+* [ ] Moneyを変換して換算を行う
+* [ ] Reduce(Bank, String)
 
 # 以下は整理
 * [x] $5 * 2 = $10
