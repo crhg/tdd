@@ -3,7 +3,7 @@ package org.u17;
 public class Money implements Expression{
     protected int amount;
 
-    protected String currency;
+    private String currency;
 
     Money(int amount, String currency) {
         this.amount = amount;
