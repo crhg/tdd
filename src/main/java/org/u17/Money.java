@@ -1,7 +1,7 @@
 package org.u17;
 
 public class Money implements Expression{
-    protected int amount;
+    int amount;
 
     private String currency;
 
