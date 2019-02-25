@@ -28,6 +28,10 @@ public class Money implements Expression{
     }
 
     public boolean equals(Object object) {
+        if (!(object instanceof Money)) {
+            return false;
+        }
+
         Money money = (Money)object;
         return amount == money.amount
                 && currency().equals(money.currency());
